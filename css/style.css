@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 126px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    margin-left: 270px;
+}
+
+.search {
+    width: 48px;
+    height: 48px;
+    margin: 39px 219px 0 0;
+}
+
+.menu {
+    width: 66px;
+    height: 44px;
+    margin: 58px 54px 28px 0;
+}
+
+.border {
+    width: 100%;
+    border: 1px solid #000000;
+}
