@@ -28,3 +28,28 @@
     width: 100%;
     border: 1px solid #000000;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_up_subtitle {
+    font: 500 16px/22px "Noto Sans", sans-serif;
+    color: #AC2A48;
+}
+
+.main_title {
+    font: 700 44px/56px Lora, sans-serif;
+}
+
+.main_subtitle {
+    font: 500 14px/19px "Noto Sans", sans-serif;
+    color: #655F5F;
+}
+
+.main_image {
+    width: 1460px;
+    height: 587px;
+}
