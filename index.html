@@ -6,7 +6,9 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The British Museum</title>
@@ -14,18 +16,33 @@
 <body>
 
     <header class="header">
-    <a href="#">
-        <img class="logo" src="media/logo.png" alt="LOGO">
-    </a>
-    <a class="block_menu">
-        <img class="search" src="media/search.png" alt="search">
-        <img class="menu" src="media/burger.png" alt="menu">
-    </a>
+      <div class="content">
+        <div class="header_wrapper">
+          <a href="#">
+            <img class="logo" src="media/logo.png" alt="LOGO">
+          </a>
+          <div class="block_menu">
+              <img class="search" src="media/search.png" alt="search">
+              <img class="menu" src="media/burger.png" alt="menu">
+          </div>
+        </div>
+      </div>
     </header>
-        <p class="border"></p>
-    <div>
         
+  <div class="intro">
+    <div class="content">
+      <p class="intro_up_subtitle">
+        Выставки и мероприятия/ 5 декабря, 2020
+      </p>
+      <h1 class="intro_title">
+          Есть ли для стрит-арта место в музее?
+      </h1>
+      <p class="intro_subtitle">
+          Выставка Banksy
+      </p>
+      <img src="media/main_photo.png" alt="photo" class="intro_image">
     </div>
+  </div>
   
   <section class="section_main">
     <div class="content">
@@ -56,8 +73,10 @@
           <form class="main_form">
             <h4 class="form_title">Подпишитесь на нашу рассылку</h4>
             <p class="form_subtitle">Зарегистрируйтесь сегодня и будьте в курсе новостей музея</p>
-            <input type="text" placeholder="Имя" class="form_input">
-            <input type="email" placeholder="Email" class="form_input">
+            <div class="form_inputs">
+              <input type="text" placeholder="Имя" class="form_input">
+              <input type="email" placeholder="Email" class="form_input">
+            </div>
             <button class="form_button">Подписаться</button>
           </form>
         </div>

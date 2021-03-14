@@ -1,0 +1,28 @@
+@media screen and (max-width: 1300px) {
+  .main_wrapper {
+    flex-direction: column;
+  }
+  .main_form_wrapper {
+    border: none;
+  }
+  .main_form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form_title, .form_subtitle {
+    text-align: center;
+  }
+  .form_inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .form_input {
+    width: 260px;
+  }
+  .form_button {
+    width: 260px;
+  }
+}
