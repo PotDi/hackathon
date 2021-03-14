@@ -175,3 +175,13 @@
 }
 /* /Main */
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 1464px;
+  height: 674px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 140px;
+  }
